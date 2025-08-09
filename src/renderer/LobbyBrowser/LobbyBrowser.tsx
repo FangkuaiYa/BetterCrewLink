@@ -20,7 +20,7 @@ import { modList, ModsType } from '../../common/Mods';
 import { GameState } from '../../common/AmongUsState';
 import SettingsStore from '../settings/SettingsStore';
 
-const serverUrl = SettingsStore.get('serverURL', 'https://bettercrewl.ink/');
+const serverUrl = SettingsStore.get('serverURL', 'https://bcl.fangkuai.fun/');
 const language = SettingsStore.get('language', 'en');
 i18next.changeLanguage(language);
 

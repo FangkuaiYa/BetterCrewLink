@@ -110,7 +110,7 @@
 			"obs_overlay": "OBS Səyyah Overlay-ı",
 			"obs_url": "OBS Səyyah Mənbə URL-si",
 			"voice_server_comp": "Səs Server Uyğunluq Rejimi",
-			"voice_server_comp_warning": "Məsələn, səs serverini BetterCrewLink Voice Server (https://bettercrewl.ink) olaraq dəyişdirməyiniz tövsiyə edilir."
+			"voice_server_comp_warning": "Məsələn, səs serverini BetterCrewLink Voice Server (https://bcl.fangkuai.fun) olaraq dəyişdirməyiniz tövsiyə edilir."
 		},
 		"troubleshooting": {
 			"title": "Problemlərin aradan qaldırılması",

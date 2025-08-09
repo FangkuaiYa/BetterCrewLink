@@ -110,7 +110,7 @@
 			"obs_overlay": "تراكب متصفح OBS",
 			"obs_url": "عنوان URL لمصدر متصفح OBS",
 			"voice_server_comp": "وضع التوافق مع خادم الصوت",
-			"voice_server_comp_warning": "يوصى بتغيير خادم الصوت إلى خادم صوت BetterCrewLink (https://bettercrewl.ink) على سبيل المثال."
+			"voice_server_comp_warning": "يوصى بتغيير خادم الصوت إلى خادم صوت BetterCrewLink (https://bcl.fangkuai.fun) على سبيل المثال."
 		},
 		"troubleshooting": {
 			"title": "استكشاف الأخطاء وإصلاحها",

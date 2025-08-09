@@ -110,7 +110,7 @@
 			"obs_overlay": "OBS Webbläsar Överlägg",
 			"obs_url": "OBS Webbläsarkälla URL",
 			"voice_server_comp": "RS Kompatibilitetsläge",
-			"voice_server_comp_warning": "Det är rekommenderat att endast ändra röstservern till en BetterCrewLink Voice Server (https://bettercrewl.ink) till exempel."
+			"voice_server_comp_warning": "Det är rekommenderat att endast ändra röstservern till en BetterCrewLink Voice Server (https://bcl.fangkuai.fun) till exempel."
 		},
 		"troubleshooting": {
 			"title": "Felsökning",

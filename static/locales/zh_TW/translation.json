@@ -110,7 +110,7 @@
 			"obs_overlay": "OBS Browser 疊層",
 			"obs_url": "OBS Browser Source 網址",
 			"voice_server_comp": "語音伺服器相容模式",
-			"voice_server_comp_warning": "建議將語音伺服器更改為BetterCrewLink Voice Server，例如: https://bettercrewl.ink 。"
+			"voice_server_comp_warning": "建議將語音伺服器更改為BetterCrewLink Voice Server，例如: https://bcl.fangkuai.fun 。"
 		},
 		"troubleshooting": {
 			"title": "故障排除",

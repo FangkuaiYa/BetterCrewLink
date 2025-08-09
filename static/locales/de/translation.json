@@ -110,7 +110,7 @@
 			"obs_overlay": "OBS-Browser-Overlay",
 			"obs_url": "OBS-Browser-Overlay",
 			"voice_server_comp": "VS Kompatibilitätsmodus",
-			"voice_server_comp_warning": "Es wird empfohlen, den Sprachserver auf einen BetterCrewLink Voiceserver (z.B. https://bettercrewl.ink) zu ändern."
+			"voice_server_comp_warning": "Es wird empfohlen, den Sprachserver auf einen BetterCrewLink Voiceserver (z.B. https://bcl.fangkuai.fun) zu ändern."
 		},
 		"troubleshooting": {
 			"title": "Fehlerbehebung",

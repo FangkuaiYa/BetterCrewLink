@@ -33,7 +33,7 @@ export const SettingsStore = new Store<ISettings>({
 				store.get('serverURL') === 'https://obs.bettercrewlink.app' ||
 				store.get('serverURL') === 'https://discord.gg/qDqTzvj4SH'
 			) {
-				store.set('serverURL', 'https://bettercrewl.ink');
+				store.set('serverURL', 'https://bcl.fangkuai.fun');
 			}
 		},
 		'2.0.7': (store) => {
@@ -59,7 +59,7 @@ export const SettingsStore = new Store<ISettings>({
 				store.get('serverURL') === 'https://obs.bettercrewlink.app' ||
 				store.get('serverURL') === 'https://discord.gg/qDqTzvj4SH'
 			) {
-				store.set('serverURL', 'https://bettercrewl.ink');
+				store.set('serverURL', 'https://bcl.fangkuai.fun');
 			}
 		},
 		'2.1.4': (store) => {
@@ -77,7 +77,7 @@ export const SettingsStore = new Store<ISettings>({
 			store.delete('pushToTalk');
 		},
 		'2.3.6': (store) => {
-			if ((store.get('serverURL') as string).includes('//crewl.ink')) store.set('serverURL', 'https://bettercrewl.ink');
+			if ((store.get('serverURL') as string).includes('//crewl.ink')) store.set('serverURL', 'https://bcl.fangkuai.fun');
 		},
 		'2.4.0': (store) => {
 			const currentSensitivity = store.get('micSensitivity') as number;
@@ -117,7 +117,7 @@ export const SettingsStore = new Store<ISettings>({
 		},
 		serverURL: {
 			type: 'string',
-			default: 'https://bettercrewl.ink',
+			default: 'https://bcl.fangkuai.fun',
 			format: 'uri',
 		},
 		pushToTalkShortcut: {

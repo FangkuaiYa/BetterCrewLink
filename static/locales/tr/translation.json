@@ -110,7 +110,7 @@
 			"obs_overlay": "OBS Tarayıcı Arayüzü",
 			"obs_url": "OBS Tarayıcı Kaynağı URL",
 			"voice_server_comp": "Ses Sunucusu Uyumluluk Modu",
-			"voice_server_comp_warning": "Ses sunucusunu, bir BetterCrewlink sunucusuna değiştirmeniz tavsiye edilir. Örneğin https://bettercrewl.ink ."
+			"voice_server_comp_warning": "Ses sunucusunu, bir BetterCrewlink sunucusuna değiştirmeniz tavsiye edilir. Örneğin https://bcl.fangkuai.fun ."
 		},
 		"troubleshooting": {
 			"title": "Sorun Giderme",

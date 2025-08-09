@@ -110,7 +110,7 @@
 			"obs_overlay": "OBS ブラウザーのオーバーレイ",
 			"obs_url": "OBSブラウザソースURL",
 			"voice_server_comp": "ボイスサーバー互換性モード",
-			"voice_server_comp_warning": "例えば、ボイスサーバーをBetterCrewLinkボイスサーバー(https://bettercrewl.ink)に変更することをお勧めします。"
+			"voice_server_comp_warning": "例えば、ボイスサーバーをBetterCrewLinkボイスサーバー(https://bcl.fangkuai.fun)に変更することをお勧めします。"
 		},
 		"troubleshooting": {
 			"title": "トラブルシューティング",

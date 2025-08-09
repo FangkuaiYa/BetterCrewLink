@@ -85,35 +85,86 @@ interface TitleBarProps {
 
 const RawTitleBar: React.FC<TitleBarProps> = function ({ settingsOpen, setSettingsOpen }: TitleBarProps) {
 	const classes = useStyles();
+
 	return (
-		<div className={classes.root}>
-			<span className={classes.title} style={{ marginLeft: 10 }}>
-				BetterCrewLink{appVersion}
-			</span>
-			<IconButton
-				className={classes.button}
-				style={{ left: 0 }}
-				size="small"
-				onClick={() => setSettingsOpen(!settingsOpen)}
-			>
-				<SettingsIcon htmlColor="#777" />
-			</IconButton>
-			<IconButton
-				className={classes.button}
-				style={{ left: 22 }}
-				size="small"
-				onClick={() => ipcRenderer.send('reload')}
-			>
-				<RefreshSharpIcon htmlColor="#777" />
-			</IconButton>
-			<IconButton
-				className={classes.button}
-				style={{ right: 0 }}
-				size="small"
-				onClick={() => ipcRenderer.send(IpcMessages.QUIT_CREWLINK)}
-			>
-				<CloseIcon htmlColor="#777" />
-			</IconButton>
+		<div className={classes.root} style={{
+			display: 'flex',
+			alignItems: 'center',
+			justifyContent: 'space-between',
+			padding: '0 10px',
+			background: 'linear-gradient(135deg, #2c3e50, #1a1f2d)',
+			borderBottom: '1px solid rgba(255,255,255,0.1)',
+			height: 40,
+			userSelect: 'none'
+		}}>
+			{/* 左侧区域 */}
+			<div style={{ display: 'flex', alignItems: 'center' }}>
+				<span className={classes.title} style={{
+					color: '#e0e0e0',
+					fontSize: 16,
+					fontWeight: 600,
+					letterSpacing: 0.5,
+					textShadow: '0 1px 2px rgba(0,0,0,0.3)'
+				}}>
+					方块の语音聚会
+					<span style={{
+						fontSize: 10,
+						marginLeft: 6,
+						color: '#aaa',
+						verticalAlign: 'super'
+					}}>{appVersion}</span>
+				</span>
+			</div>
+
+			{/* 右侧控制按钮 */}
+			<div style={{ display: 'flex', alignItems: 'center' }}>
+				<IconButton
+					className={classes.button}
+					style={{
+						margin: '0 5px',
+						transition: 'all 0.2s ease',
+						transform: settingsOpen ? 'rotate(30deg)' : 'none'
+					}}
+					size="small"
+					onClick={() => setSettingsOpen(!settingsOpen)}
+					title="设置"
+				>
+					<SettingsIcon htmlColor="#aaa" />
+				</IconButton>
+
+				<IconButton
+					className={classes.button}
+					style={{
+						margin: '0 5px',
+						transition: 'all 0.2s ease'
+					}}
+					size="small"
+					onClick={() => ipcRenderer.send('reload')}
+					title="刷新"
+				>
+					<RefreshSharpIcon htmlColor="#aaa" />
+				</IconButton>
+
+				<div style={{
+					width: 1,
+					height: 20,
+					background: 'rgba(255,255,255,0.1)',
+					margin: '0 5px'
+				}} />
+
+				<IconButton
+					className={classes.button}
+					style={{
+						margin: '0 5px',
+						transition: 'all 0.2s ease'
+					}}
+					size="small"
+					onClick={() => ipcRenderer.send(IpcMessages.QUIT_CREWLINK)}
+					title="关闭"
+				>
+					<CloseIcon htmlColor="#aaa" />
+				</IconButton>
+			</div>
 		</div>
 	);
 };

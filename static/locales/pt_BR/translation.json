@@ -110,7 +110,7 @@
 			"obs_overlay": "Sobreposição do OBS",
 			"obs_url": "URL da Sobreposição do OBS",
 			"voice_server_comp": "Modo de Compatibilidade com servidores CrewLink",
-			"voice_server_comp_warning": "É recomendado mudar o Servidor de Voz para o Servidor de Voz do BetterCrewLink (https://bettercrewl.ink)."
+			"voice_server_comp_warning": "É recomendado mudar o Servidor de Voz para o Servidor de Voz do BetterCrewLink (https://bcl.fangkuai.fun)."
 		},
 		"troubleshooting": {
 			"title": "Solução de Problemas",

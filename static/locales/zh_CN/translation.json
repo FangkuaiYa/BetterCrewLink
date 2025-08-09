@@ -29,8 +29,8 @@
 				"enabled": "公开大厅",
 				"mods": "模组",
 				"language": "语言",
-				"enable_warning": "启用此项会让你的大厅向其他BetterCrewLink用户公开！",
-				"ban_warning": "过激文本将会让你被BetterCrewLink封禁。"
+				"enable_warning": "启用此项会让你的大厅向其他方块の语音聚会用户公开！",
+				"ban_warning": "过激文本将会让你被方块の语音聚会封禁。"
 			}
 		},
 		"customplatforms": {
@@ -52,7 +52,7 @@
 			"microphone_sens": "麦克风灵敏度",
 			"microphone_sens_warning": "如果你设置灵敏度过低，可能导致麦克风无法正常工作。",
 			"mastervolume": "主音量",
-			"crewvolume": "作为幽灵时的船员音量",
+			"crewvolume": "作为灵魂时的船员音量",
 			"ghostvolumeasimpostor": "内鬼听见的幽灵音量",
 			"test_speaker_start": "扬声器测试",
 			"test_speaker_stop": "停止扬声器测试"
@@ -66,7 +66,7 @@
 		},
 		"overlay": {
 			"title": "游戏内覆盖",
-			"always_on_top": "置顶BetterCrewLink",
+			"always_on_top": "置顶方块の语音聚会",
 			"enabled": "启用覆盖",
 			"compact": "简洁覆盖",
 			"meeting": "会议覆盖",
@@ -83,7 +83,7 @@
 		},
 		"advanced": {
 			"title": "高级设置",
-			"nat_fix": "NAT 修复",
+			"nat_fix": "NAT 修复(慎开)",
 			"nat_fix_warning": "这会将默认的点对点（P2P）连接改为通过中转服务器连接进行语音。",
 			"change_server": "更改语音服务器",
 			"voice_server": "语音服务器",
@@ -110,7 +110,7 @@
 			"obs_overlay": "OBS 浏览器覆盖源",
 			"obs_url": "OBS浏览器源URL",
 			"voice_server_comp": "VS 兼容模式",
-			"voice_server_comp_warning": "建议将语音服务器更改为BetterCrewLink Voice Server ，例如：https://bettercrewl.ink 。"
+			"voice_server_comp_warning": "建议将语音服务器更改为方块の语音聚会私服 ，例如：https://bcl.fangkuai.fun 。"
 		},
 		"troubleshooting": {
 			"title": "故障处理",
@@ -152,15 +152,14 @@
 		"open_error": "手动启动Among Us",
 		"waiting": "等待Among Us启动中",
 		"error": "错误",
-		"error_admin": "无法连接到Among Us。\n请以管理员权限重新打开 BetterCrewLink。",
+		"error_admin": "无法连接到Among Us。\n请以管理员权限重新打开方块の语音聚会。",
 		"error_platform": "未检测到平台",
-		"error_unsupport": "BetterCrewLink不支持当前版本的Among Us。"
+		"error_unsupport": "方块の语音聚会不支持当前版本的Among Us。"
 	},
 	"platform": {
 		"steam": "Steam",
 		"epicgames": "Epic游戏",
 		"microsoft": "Microsoft",
 		"custom": "自定义"
-	},
-	"translator_name": "Zheng Syameimaru & Er1ckW"
+	}
 }

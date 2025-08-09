@@ -65,7 +65,7 @@
 
 </details>
 
-- To get the most of BetterCrewLink use the Voice Server: <a href="https://bettercrewl.ink">`https://bettercrewl.ink`</a>
+- To get the most of BetterCrewLink use the Voice Server: <a href="https://bcl.fangkuai.fun">`https://bcl.fangkuai.fun`</a>
 
 <div>
   <a target="_blank" href="https://discord.gg/qDqTzvj4SH" title="Join our Discord!">

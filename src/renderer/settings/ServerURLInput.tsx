@@ -69,7 +69,7 @@ const RawServerURLInput: React.FC<URLInputProps> = function ({ t, initialURL, on
 						onClick={() => {
 							setOpen(false);
 							setURLValid(true);
-							onValidURL('https://bettercrewl.ink');
+							onValidURL('https://bcl.fangkuai.fun');
 						}}
 					>
 						{t('settings.advanced.reset_default')}
