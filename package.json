@@ -1,8 +1,8 @@
 {
 	"name": "bettercrewlink",
-	"version": "3.1.3",
+	"version": "3.1.4",
 	"license": "GPL-3.0-or-later",
-	"description": "Free, open, Among Us Proximity Voice Chat",
+	"description": "免费、开放、在我们中间的近距离语音聊天",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/OhMyGuus/BetterCrewLink.git"
@@ -12,9 +12,9 @@
 		"url": "https://www.paypal.com/donate?hosted_button_id=KS43BDTGN76JQ"
 	},
 	"author": {
-		"name": "OhMyGuus",
+		"name": "方块の聚会开发组",
 		"email": "info@guus.ninja",
-		"url": "https://bettercrewlink.app"
+		"url": "https://fangkuai.fun/"
 	},
 	"scripts": {
 		"postinstall": "electron-builder install-app-deps",
@@ -22,8 +22,10 @@
 		"dev": "electron-webpack dev",
 		"compile": "electron-webpack",
 		"dist": "yarn compile && electron-builder --win --x64",
-	    "dist:linux": "yarn compile && electron-builder --linux --x64",
-		"publish": "yarn compile && electron-builder --win --x64 --publish always",
+		"dist:32": "yarn compile && electron-builder --win",
+		"dist:64": "yarn compile && electron-builder --win --x64",
+		"dist:linux": "yarn compile && electron-builder --linux --x64",
+		"publish": "yarn compile && electron-builder --win --x64 --publish always ",
 		"publish:linux": "yarn compile && electron-builder --x64 --linux --publish always"
 	},
 	"dependencies": {
